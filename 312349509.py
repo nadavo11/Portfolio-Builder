@@ -218,7 +218,7 @@ if __name__ == '__main__':  # You should keep this line for our auto-grading cod
     print('write your tests here')  # don't forget to indent your code here!
     pfb = PortfolioBuilder()
 
-    data = pfb.get_daily_data( ['GOOG', "AAPL" , "MSFT"], date(2018,1,1), date(2020,2,1))
+    data = pfb.get_daily_data( ['GOOG',  "MSFT"], date(2018,1,1), date(2020,2,1))
 
     # print(data)
     uni =pfb.find_universal_portfolio()
